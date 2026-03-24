@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    
+    <header id="hero">
+      <div class="hero-content">
+        <h1>Francis Formaran</h1>
+        <p class="title">Full Stack Web Developer</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am an IT student with a strong interest in game development and software creation. I have experience using Unity and C# for building games, along with Blender for 3D modeling. I focus on creating practical, functional projects and continuously improving my technical skills to become a professional game developer.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      
+      <div class="job">
+        <h3>Software Engineer</h3>
+        <p class="company-info"><strong>TechCorp Solutions</strong> | Jan 2022 - Present</p>
+        <ul>
+          <li>Developed and maintained responsive web applications using React and Node.js.</li>
+          <li>Collaborated with the design team to implement modern UI/UX principles, increasing user retention by 15%.</li>
+          <li>Optimized database queries to improve application load times.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Junior Web Developer</h3>
+        <p class="company-info"><strong>Creative Web Agency</strong> | Jun 2020 - Dec 2021</p>
+        <ul>
+          <li>Built custom websites for local businesses using HTML, CSS, and JavaScript.</li>
+          <li>Ensured cross-browser compatibility and mobile responsiveness for all client projects.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="degree">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>University of Eastern Philippines | Graduated: May 2020</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>HTML5 & Semantic Markup</li>
+        <li>CSS3, Flexbox, & Grid</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React & Redux</li>
+        <li>Node.js & Express</li>
+        <li>Git & Version Control</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Alex Johnson. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Home</a> | 
+        <a href="#about">About</a> | 
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+  </main>
+</body>
+</html>
